@@ -1,0 +1,264 @@
+body{
+    background-color: #f5f5dd;
+    margin: 0px;
+}
+#headerContents{
+    width: 960px;
+    margin: 0 auto;
+
+}
+header{
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+.headerLogo{
+    float: left;
+}
+h1{
+    margin: 0px;
+}
+form{
+    float: right;
+}
+.darkBrown{
+    color: #654321;
+}
+#titleDescriptionP{
+    margin: 0px;
+    clear: left;
+}
+#research_box{
+    margin-right: 10px;
+    height: 20px;
+}
+#research_button{
+    float: right;
+}
+#headerMenu{
+    width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+#headerMenu Ul{
+    margin-bottom: 0px;
+}
+.headerMenuUl{
+    padding-left: 0px;
+}
+#headerMenu li{
+    width: 20%;
+    text-align: center;
+    float: left;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+    list-style: none;
+}
+#headerMenu li:last-of-type{
+    border-right: none;
+}
+.headerLi{
+    text-decoration: none;
+
+}
+#mainView{
+    width: 960px;
+    height: auto;
+    margin-bottom: 5px;
+}
+#mainContents{
+    width: 960px;
+    margin: 0 auto;
+}
+h2{
+    color: white;
+    background-color: #99bb22;
+    font-size: 15px;
+    border-radius: 20px;
+    margin: 0px;
+    position: relative;
+    background-image: url("images/icon/dish.png");
+    background-repeat: no-repeat;
+    background-position: 6px;
+    background-size: 16px 16px;
+    padding-left: 25px;
+    padding-top: 3px;
+}
+nav{
+    float: left;
+    box-sizing: border-box;
+    width: 20%;
+}
+.navIcon{
+    position: relative;
+    top: 4px;
+    left: 10px;
+}
+#cookRecipesDiv,#purposeRecipesDiv{
+    background-color: white;
+    padding: 10px;
+}
+.navUl{
+    padding-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.navUl li{
+    list-style: none;
+}
+.navLink{
+    color: #1a1a1a;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: middle;
+    background-image: url("images/icon/arrow.png");
+    background-repeat: no-repeat;
+    background-position: 0% 40%;
+    padding-left:20px;
+    display: block;
+    border-bottom: 1px dotted brown;
+}
+.navUl li:last-child{
+    border-bottom: none;
+}
+article{
+    float: left;
+    box-sizing: border-box;
+    width: 65%;
+}
+#newRecipes,#topics,#pushRecipes{
+    background-color: white;
+    padding: 10px;
+    margin: 0px 15px 15px 15px;
+}
+#newRecipes div{
+    float: left;
+    width: 20%;
+}
+#newRecipes p{
+    width: 80%;
+    font-size: 10px;
+    margin-top: 0px;
+
+}
+article h2{
+    margin-bottom: 10px;
+}
+#topicsImage{
+    width: 40%;
+    float: left;
+}
+#topicsCommentary{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+}
+#topicsCommentary p{
+    margin-top: 5px;
+    font-size: 14px;
+    text-indent: 1em;
+}
+#topicsCommentary p:first-of-type{
+    margin-top: 0px;
+}
+#continueTopics{
+    float:right;
+}
+#pushRecipes1Image{
+    width: 40%;
+    float: left;
+}
+h3{
+    margin: 0px;
+}
+#pushRecipes1Commentary{
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+#pushRecipes1Commentary p{
+text-indent: 1em;
+}
+#pushRecipes2Image{
+    width: 40%;
+    float: left;
+    clear: both;
+}
+#pushRecipes2Commentary{
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+#pushRecipes2Commentary p{
+text-indent: 1em;
+}
+#continueSpring{
+    float:right;
+}
+#continueVegetable{
+    float:right;
+}
+br{
+    line-height: 5px;
+}
+.readContinue{
+    color: #fc8833;
+    background-image: url("images/icon/arrow.png");
+    background-repeat: no-repeat;
+    background-position: 0% 35%;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding-left: 18px;
+    font-size: 14px;
+}
+aside{
+    float: left;
+    box-sizing: border-box;
+    width: 15%;
+}
+#advert1{
+    margin-bottom: 10px;
+}
+footer{
+    clear: left;
+    background-color: white;
+    border-top: 1px solid gray;
+}
+#footerDiv{
+    width: 960px;
+    margin: 0 auto;
+    margin-left: 340px;
+}
+#fotterUl{
+    margin: 0px 0px;
+}
+#footerUl li{
+    float: left;
+    padding: 0px 20px;
+    font-size: 14px;
+    border-right: solid 1px gray;
+    list-style: none;
+}
+#footerUl li:last-child{
+    border-right: none;
+}
+#footerUl a{
+    text-decoration: none;
+}
+footer P{
+    clear: both;
+    display:block;
+    width: 70%;
+    margin: 0 auto;
+    color: gray;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+    visibility:hidden;
+    }
